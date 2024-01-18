@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('bBall.jpg') center/cover no-repeat;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    border: 3px solid #000000;
+}
+
+.mini-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 490px;
+    height: 295px;
+    background-color: #f3f3f3;
+}
+
+.bbflag {
+    display:flex;
+    flex-direction: column;
+}
+
+img {
+    width: 100px;
+    filter: invert(1);
+}
+
+.home-team {
+    display: grid;
+    background-color: #ffae00;
+    width: 165px;
+    height: 290px;
+}
+
+.bbflag {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #166d00;
+    width: 150px;
+    height: 290px;
+}
+
+.away-team {
+    display: grid;
+    background-color: #b3b3b3;
+    width: 165px;
+    height: 290px;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    all: unset;
+    background-color: #dcffc5;
+    cursor: pointer;
+    width: 30px;
+    padding: 4px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: 1px solid;
+    margin: 7px;
+}
+
+.reset-btn {
+    all: unset;
+    color: #ffffff;
+    border: #ffffff 2px solid;
+    padding: 5px;
+    background-color: red;
+    margin-top: 50px;
+    margin-bottom: -21px;
+    cursor: pointer;
+}
+
+.score-board {
+    color: white;
+    font-size: 20px;
+}
+
+p {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+    

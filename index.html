@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basket Ball Score Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="mini-container">
+            <div class="home-team">
+                <p class="home">HOME</p>
+                <h1 id="score-home">0</h1>
+                <div class="btns">                    
+                    <button onclick="homeAdd1()">+1</button>
+                    <button onclick="homeAdd2()">+2</button>
+                    <button onclick="homeAdd3()">+3</button>
+                </div>
+            </div>           
+            <div class="bbflag">
+                <img src="bb.png" alt="Basket Ball">
+                <p class = 'score-board'>SCORE BOARD</p>
+                <button class="reset-btn" onclick="resetAll()">Reset</button>
+            </div>
+            <div class="away-team">
+                <p class="away">AWAY</p>
+                <h1 id="score-away">0</h1>
+                <div class="btns">
+                    <button onclick="awayAdd1()">+1</button>
+                    <button onclick="awayAdd2()">+2</button>
+                    <button onclick="awayAdd3()">+3</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
